@@ -28,3 +28,9 @@ function willItTruthy(item){
 }
 
 findElement([1, 2, 3, 4], function(num){ return num % 2 === 0; });
+
+// ERRATA
+//
+// First argument must be an array
+// Second argument must be a function
+// Array/function arguments are not optional
